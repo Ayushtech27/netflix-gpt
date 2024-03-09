@@ -2,6 +2,8 @@
 
 - Create React App
 - Configured Tailwind
+- Login Form
+- Sign Up From
 
 # Features
 
