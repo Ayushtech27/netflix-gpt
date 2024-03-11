@@ -24,7 +24,8 @@ const Header = () => {
   };
 
   useEffect(() => {
-    onAuthStateChanged(auth, (user) => {
+    const unsubscribe = onAuthStateChanged(auth, (user) => {
+      // onAuthStateChanged is like an event listner
       if (user) {
         // User is signed in
         const { uid, email, displayName, photoURL } = user;
@@ -43,6 +44,12 @@ const Header = () => {
         navigate("/");
       }
     });
+
+    // Unsubscribing when the component unmounts
+    return () => {
+      // onAuthStateChanged return an unsubscribe function
+      unsubscribe();
+    };
   }, []);
 
   return (

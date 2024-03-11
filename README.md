@@ -16,6 +16,7 @@
 - Update Profile
 - Signup user displayName and profile picture update
 - Secured routing for browse page
+- Unsubscribed to the onAuthStateChanged callback
 
 # Features
 
