@@ -21,7 +21,7 @@
 - Get Data from TMDB now playing movies list API
 - Fetch Data for trailer video
 - Update store with trailer video data
-- embedded the youtube video and made it autoplay and mute
+- Embedded the youtube video and made it autoplay and mute
 
 # Features
 
