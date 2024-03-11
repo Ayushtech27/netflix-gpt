@@ -17,6 +17,8 @@
 - Signup user displayName and profile picture update
 - Secured routing for browse page
 - Unsubscribed to the onAuthStateChanged callback
+- Register for TMDB API, create an app and get access token
+- Get Data from TMDB now playing movies list
 
 # Features
 
