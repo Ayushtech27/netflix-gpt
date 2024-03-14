@@ -24,6 +24,7 @@
 - Embedded the youtube video and made it autoplay and mute
 - Build secondary component
 - GPT Search feature
+- Translations
 
 # Features
 
