@@ -23,6 +23,7 @@
 - Update store with trailer video data
 - Embedded the youtube video and made it autoplay and mute
 - Build secondary component
+- GPT Search feature
 
 # Features
 
