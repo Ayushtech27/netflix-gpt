@@ -25,6 +25,7 @@
 - Build secondary component
 - GPT Search feature
 - Translations
+- Responsivity
 
 # Features
 
